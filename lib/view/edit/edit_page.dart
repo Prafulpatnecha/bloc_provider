@@ -22,6 +22,7 @@ class EditPage extends StatelessWidget {
       ),
       floatingActionButton: Row(
         mainAxisAlignment: MainAxisAlignment.end,
+        spacing: 30,
         children: [
           FloatingActionButton(onPressed: () {
             // blocHomeCreate.add(HomeSetNameEvent());

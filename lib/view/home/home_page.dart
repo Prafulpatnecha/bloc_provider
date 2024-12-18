@@ -23,6 +23,7 @@ class HomePage extends StatelessWidget {
         ],
       ),
       floatingActionButton: Row(
+        spacing: 30,
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           FloatingActionButton(onPressed: () {
